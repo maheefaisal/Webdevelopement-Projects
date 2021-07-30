@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styling */
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: #79bdbe;
+}
+.header ul {
+  margin: 0;
+  list-style: none;
+}
+.header > ul > li {
+  float: left;
+  margin-right: 2px;
+  position: relative;
+}
+.header ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-left: 150px;
+  font-size: 20px;
+  color: #f7edd4;
+}
+.header ul li:hover a {
+  background: #22a6b3;
+}
+.header ul .anything a {
+  background: #e74c3c;
+}
+
+/* Body styling */
+
+/* ONE  */
+.body .one {
+  height: 850px;
+  width: 100%;
+  background-color: #79bdbe;
+}
+
+/* TWO   */
+.body .two {
+  height: 600px;
+  width: 100%;
+  background-color: #e0dacc;
+}
+
+/* FOUR  */
+.body .four {
+  height: 1100px;
+  width: 100%;
+  background-color: #e1ddda;
+}
+.body .four .body-four-one {
+  margin-left: 450px;
+}
+.body .four .box-one {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+.body .four .box-one .the-magic-wheel {
+  margin-left: 320px;
+}
+.body .four .box-one .the-magic-wheel-content {
+  margin-left: 320px;
+}
+
+
+.body .four .body-box-two {
+  margin-left: 5px;
+}
+.body .four .box-two {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+.body .four .box-two .the-lonely-road {
+  margin-left: 320px;
+}
+.body .four .box-two .the-lonely-road-content {
+  margin-left: 320px;
+}
+
+
+.body .four .body-box-three {
+  margin-left: 5px;
+}
+.body .four .box-three {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+.body .four .box-three .i-love-gasoline-smell {
+  margin-left: 320px;
+}
+.body .four .box-three .i-love-gasoline-smell-content {
+  margin-left: 320px;
+}
+
+/* FOOTER  */
+.footer {
+  height: 980px;
+  width: 100%;
+  background-color: #4a4d54;
+}
+
+/* Styling the h3 of footer   */
+.footer h3 {
+  color: #f5edd8;
+  text-align: center;
+  margin-right: 100px;
+}
+/* Styling button of footer  */
+.footer button {
+  color: #2b2b2b;
+}
+/* Styling the h2 of footer  */
+.footer h2 {
+  color: #f5edd8;
+  text-align: center;
+}
+/* Styling footer image one  */
+.footer .footer-image-one {
+  height: 130px;
+  width: auto;
+  margin-left: 350px;
+  margin-top: 50px;
+}
+/* Styling footer image two  */
+.footer .footer-image-two {
+  margin-left: 550px;
+  width: 13%;
+}
+/* Footer-Bottom  */
+.footer .footer-bottom {
+  border-top: 1px dashed #7a7d84;
+}
+/* Styling form  */
+.footer input {
+  width: 60%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: #b0b0b0;
+}
+.footer textarea {
+  width: 60%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  font-size: 25px;
+  color: #b0b0b0;
+}
+.footer form {
+  margin-left: 330px;
+}
+.footer button {
+  width: 20%;
+  background-color: #fdf9f6;
+  color: black;
+  padding: 7px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+/* Footer image four  */
+.footer .footer-image-styling {
+  margin-left: 380px;
+  margin-bottom: 30px;
+}
+/* Footer top styling  */
+
+/* BODY FOUR STYLING */
+.body .four .image-body-four-two {
+  float: left;
+}
+.body .four .box-one {
+  overflow: hidden;
+}
+
+.body .four .body-box-two {
+  float: left;
+}
+.body .four .box-two {
+  overflow: hidden;
+}
+
+.body .four .body-box-three {
+  float: left;
+}
+.body .four .box-three {
+  overflow: hidden;
+}
+
+.body .hello-i-am-mahee
+{
+  color: #FFF1CE;
+  text-align: center;
+  text-decoration: dotted;
+
+}
+.body .old-pic-girl
+{
+  margin-left: 200px;
+}
+.body .body-one-picture
+{
+  margin-left: 380px;
+}
+
+
+.body .two .about-me-image
+{
+  margin-left: 300px;
+}
+
+.body .two .about-me-icon-title h2
+{
+  float: left;  
+	list-style: none;
+  margin-left: 130px;
+  text-align: center;
+}
+.body .two .about-me-icon-title 
+{
+  margin-left: 205px;
+}
+
+.body .two .about-me-content p
+{
+  float: left;
+	list-style: none;
+  margin-left: 140px;
+  text-align: center;
+}
+
+.body .two .about-me-content
+{
+  float: left;
+  margin-left: 180px;
+}

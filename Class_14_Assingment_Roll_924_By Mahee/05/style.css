@@ -1,0 +1,103 @@
+/* BODY  */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* MAIN MENU  */
+.main-menu {
+  background: #2e86de;
+}
+/* AFTER FOR MAIN MENU  */
+.main-menu:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* UL FOR MAIN MENU   */
+.main-menu ul {
+  list-style: none;
+  margin: 0;
+}
+
+/* Li styling of main menu   */
+.main-menu ul li {
+  float: left;
+  position: relative;
+}
+
+/* Styling main menus links  */
+.main-menu ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+/* Creating main menus hover effect */
+.main-menu ul li:hover a {
+  background: #2d3436;
+}
+
+/* Styling main menus current  */
+.main-menu ul .current a {
+  background: #341f97;
+}
+
+/* Sub menu styling  */
+
+/* styling the second ul  */
+.main-menu ul ul
+{
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  z-index: 9999;
+}
+
+/* Styling second uls li  */
+.main-menu ul ul li
+{
+  float: none;
+}
+
+/* Hovering for second ul  */
+.main-menu  ul li:hover ul
+{
+  display: block;
+}
+
+/* Making the website responsive */
+@media all and (max-width: 768px) {
+  
+  /* Styling the ul of main menu */
+  .main-menu ul {
+    padding: 0;
+  }
+  
+  /* styling the li of main menu  */
+  .main-menu ul li {
+    float: none;
+  }
+
+  /* styling the second ul  */
+  .main-menu ul ul 
+  {
+    display: block;
+    position: inherit;
+  }
+  /* styling the hover for a  */
+  .main-menu ul li:hover a 
+  {
+    background: transparent; 
+  }
+  /* styling the sub menus link  */
+  .main-menu ul ul li a:before 
+  {
+    content: ' - ';
+    margin-left: 10px;
+  }
+}

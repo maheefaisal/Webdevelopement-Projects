@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  background-image: url(image/1-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 100px;
+  background-attachment: scroll;
+}
+.header
+{
+  background: rgb(253, 121, 168,0.5);
+  color: rgb(22, 131, 179);
+  text-align: center;
+}

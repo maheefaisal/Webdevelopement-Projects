@@ -1,0 +1,61 @@
+/* Body   */
+body {
+  margin: 0;
+}
+
+/* Box  */
+.box {
+  height: 200px;
+  width: 200px;
+  background: plum;
+  margin: auto;
+  position: relative;
+  margin-top: 200px;
+  transition: 1s;
+}
+
+/* Box before */
+.box::before {
+  content: "";
+  clear: both;
+  display: block;
+  height: 100px;
+  width: 100px;
+  background: wheat;
+  position: absolute;
+  left: 100%;
+  top: 100%;
+  transition: 2s;
+}
+
+/* Box after */
+.box::after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 100px;
+  width: 100px;
+  background: red;
+  position: absolute;
+  right: 100%;
+  top: 100%;
+  transition: 2s;
+}
+
+/* Styling boxes hover for before  */
+.box:hover::before {
+  left: -100%;
+  top: -100%;
+}
+
+/* Styling boxes hover  for after*/
+.box:hover::after {
+  right: -100%;
+  top: -100%;
+}
+
+/* Hover for box  */
+.box:hover
+{
+    transform: rotate(45deg);
+}

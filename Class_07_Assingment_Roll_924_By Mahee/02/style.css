@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  background-image: url(image/1.png);
+}
+p {
+  color: red;
+  background: #4b4b4b;
+  font-size: 50px;
+}

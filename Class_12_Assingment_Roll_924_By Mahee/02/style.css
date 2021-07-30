@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/* Main menu  */
+.main-menu {
+  /* background: lightcoral; */
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+/* Main menu left   */
+
+.main-menu-left {
+ 
+  height: 100px;
+  float: left;
+  top: 0;
+  left: 0;
+  margin-left: 70px;
+  margin-right: 5px;
+}
+
+/* Main menu right   */
+.main-menu-right {
+
+  /* background: magenta; */
+  height: 500px;
+  overflow: hidden;
+}
+/* Fixing the bullet point problem for the right side   */
+.main-menu-right ul
+{
+  margin: o;
+  list-style: none;
+}
+
+/* Making them align side by side  */
+.main-menu-right > ul > li {
+  float: left;
+  margin-right: 3px;
+  position: relative;
+}
+
+/* Making space between them */
+.main-menu-right ul li a 
+{
+  color: #424542;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Coloring the hover   */
+.main-menu-right a:hover  {
+  color: #FA9000;
+}
+/* Aling the menus under the news menu  */
+.main-menu-right ul ul 
+{
+  padding-left: 0;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  min-width: 230px;
+  display: none;
+  z-index: 9999;
+}
+
+.main-menu-right ul li:hover > ul
+{
+  display:block;
+  border: 1px solid #FA9000;
+}
+
+.main-menu-right ul ul li:hover a {
+  background: white;
+  
+}
+
+.main-menu-right ul ul li a {
+  color: #ABABAB ;
+  
+}
+/* Styling the search icon */
+.main-menu-right ul li:last-child a
+{
+  color: #ABABAB;
+}
+.main-menu-right ul li:last-child a:hover
+{
+  color: #FA9000;
+}

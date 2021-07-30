@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+/* FOR triangle ONE   */
+/* .box {
+  height: 0;
+  width: 0;
+  border-bottom: 100px solid red;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+} */
+
+/* For triangle two */
+.box-two
+{
+    height: 0;
+    width: 0;
+    border-top: 70px solid transparent;
+    border-right: 30px solid transparent;
+    border-left: 50px solid red;
+}

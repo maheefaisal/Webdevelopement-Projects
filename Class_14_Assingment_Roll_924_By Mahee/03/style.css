@@ -1,0 +1,33 @@
+/* Body  */
+body {
+  margin: 0;
+}
+
+/* Box  */
+.box {
+  height: 200px;
+  width: 200px;
+  background: paleturquoise;
+  margin: auto;
+}
+
+/* Box before */
+.box::before {
+  /* Must be given */
+  content: " ";
+  height: 100px;
+  width: 100px;
+  background: purple;
+  display: block;
+  clear: both;
+}
+
+/* Box after   */
+.box::after {
+  content: "";
+  height: 100px;
+  width: 100px;
+  background: goldenrod;
+  display: block;
+  clear: both;
+}

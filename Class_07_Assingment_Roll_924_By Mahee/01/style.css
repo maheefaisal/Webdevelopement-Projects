@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background-color: #aaa69d;
+}
+.one {
+  background: #706fd3;
+  color: aliceblue;
+  opacity: 0.5;
+}
+.two {
+  background: #3cc194;
+  color: black;
+  font-size: 20px;
+}
+.three {
+  background: rgb(51, 217, 178, 0.34);
+  color: black;
+  font-size: 20px;
+}

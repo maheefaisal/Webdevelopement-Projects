@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+}
+.one {
+  height: 400px;
+  background: #34495e;
+}
+
+.one-left {
+  height: 400px;
+  width: 30%;
+  background: skyblue;
+  float: left;
+}
+.one-left-top-left {
+  height: 200px;
+  width: 50%;
+  background: khaki;
+  float: left;
+}
+.one-left-top-right {
+  height: 200px;
+  width: 50%;
+  background: lightseagreen;
+  float: right;
+}
+.one-left-bottom {
+  height: 200px;
+  width: 100%;
+  background: firebrick;
+  overflow: hidden;
+}
+
+.one-center {
+  height: 400px;
+  width: 40%;
+  background: mediumpurple;
+  float: left;
+}
+
+.one-center-left {
+  height: 400px;
+  width: 50%;
+  background: rosybrown;
+  float: left;
+}
+.one-center-right-top {
+  height: 200px;
+  width: 50%;
+  background: powderblue;
+  float: right;
+}
+.one-center-right-bottom {
+  height: 200px;
+  width: 50%;
+  background: purple;
+  overflow: hidden;
+}
+
+.one-right {
+  height: 400px;
+  width: 30%;
+  background: blanchedalmond;
+  overflow: hidden;
+}
+.one-right-left {
+  height: 400px;
+  width: 40%;
+  background: red;
+  float: left;
+}
+.one-right-center
+{
+  height: 400px;
+  width: 20%;
+  background: #c0392b;
+  float: left;
+}
+.center-top{  
+  height: 200px;
+  width: 100%;
+  background: #bda19d;
+}
+.center-bottom{
+  height: 200px;
+  width: 100%;
+  background: #8e44ad;
+}
+
+.one-right-corner-right {
+  height: 400px;
+  width: 40%;
+  background: darkcyan;
+  overflow: hidden;
+}
+
+.two {
+  height: 500px;
+  background: #9b59b6;
+}
+.two-left {
+  height: 500px;
+  width: 50%;
+  background: royalblue;
+  float: left;
+}
+.two-left-top-left {
+  height: 250px;
+  width: 50%;
+  background: #f1c40f;
+  float: left;
+}
+.two-left-top-right {
+  height: 250px;
+  width: 50%;
+  background: #e67e22;
+  float: hidden;
+}
+.two-left-bottom {
+  height: 250px;
+  width: 100%;
+  background: #bdc3c7;
+}
+.two-right {
+  height: 500px;
+  width: 50%;
+  background: greenyellow;
+  overflow: hidden;
+}
+
+.two-right-top-left {
+  height: 250px;
+  width: 50%;
+  background: seagreen;
+  float: left;
+}
+.two-right-top-right {
+  height: 250px;
+  width: 50%;
+  background: hotpink;
+  float: hidden;
+}
+.two-right-bottom-left {
+  height: 250px;
+  width: 50%;
+  background: olivedrab;
+  float: left;
+}
+.two-right-bottom-right {
+  height: 250px;
+  width: 50%;
+  background: rosybrown;
+  float: right;
+}
+
+.three {
+  height: 400px;
+}
+.three-left {
+  height: 200px;
+  width: 40%;
+  background: #2ecc71;
+  float: left;
+}
+.three-center {
+  height: 200px;
+  width: 60%;
+  background: red;
+  overflow: hidden;
+}
+.three-right {
+  height: 200px;
+  width: 40%;
+  background: paleturquoise;
+  float: right;
+}

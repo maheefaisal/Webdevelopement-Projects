@@ -1,0 +1,355 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+/* Header area  */
+.header-area {
+  background-color: #3d5b99;
+  padding: 10px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* LOGO AREA  */
+.logo-area {
+  width: 30%;
+  float: left;
+}
+/* LOGIN AREA  */
+.login-area {
+  overflow: hidden;
+  width: 70%;
+}
+.login-area form {
+  float: right;
+}
+/* As both have have the same attribute we can write them together */
+.login-area label,
+.login-area input {
+  display: block;
+}
+/* Coloring the label tags and resizing them */
+.login-area label {
+  color: aliceblue;
+  font-size: 12px;
+  cursor: pointer;
+}
+/* Providing spacing for input tags */
+.login-area input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid royalblue;
+  padding: 2px;
+}
+/* Coloring and resizing and bring line when you 
+place the cursor on it the a tag */
+.login-area a {
+  color: #9bb7ef;
+  font-size: 12px;
+  text-decoration: none;
+}
+.login-area input[type="checkbox"] {
+  float: left;
+  margin-left: 0;
+}
+
+.username-area {
+  float: left;
+  margin-right: 15px;
+}
+
+.password-area {
+  overflow: hidden;
+  float: left;
+  margin-right: 15px;
+}
+.submit-area {
+  overflow: hidden;
+  float: left;
+}
+
+/* Editing the keep me logged in section   */
+.username-area label:last-child {
+  margin-top: 2px;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 2px;
+  color: #9bb7ef;
+}
+/* hovering all the links */
+.login-area a:hover {
+  text-decoration: underline;
+}
+.login-area input[type="submit"] {
+  background-color: royalblue;
+  cursor: pointer;
+  color: aliceblue;
+  margin-top: 22px;
+  font-size: 12px;
+}
+/* Using @media  */
+
+@media all and (max-width: 768px) {
+  .logo-area {
+    float: none;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .login-area {
+    width: 100%;
+  }
+  .login-area form {
+    float: none;
+    width: 368px;
+    margin: auto;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .login-area form {
+    width: auto;
+  }
+  .username-area {
+    overflow: hidden;
+    float: none;
+  }
+  .password-area {
+    float: none;
+  }
+  .login-area input[type="text"],
+  .login-area input[type="password"] {
+    width: 100%;
+  }
+}
+/* MAIN AREA  */
+.main-area {
+  height: 800px;
+  width: 100%;
+  background: #ebeef3;
+}
+
+.main-area-one {
+  height: 600px;
+  width: 45%;
+  float: left;
+}
+.box {
+  height: 600px;
+
+  width: 80%;
+  float: right;
+}
+.box-one {
+  height: 100px;
+  width: 100%;
+
+  margin-top: 50px;
+}
+.box-one-writing {
+  font-family: Helvetica;
+  font-size: 30px;
+}
+.box-two {
+  height: 100px;
+  width: 100%;
+}
+.box-two-logo {
+  height: 100px;
+  width: 15%;
+
+  float: left;
+}
+.box-two-writing {
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box-three-logo {
+  height: 100px;
+  width: 15%;
+  float: left;
+}
+.box-three-writing {
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box-four-logo {
+  height: 100px;
+  width: 15%;
+  float: left;
+}
+.box-four-writing {
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.box-three {
+  height: 100px;
+  width: 100%;
+}
+.box-four {
+  height: 100px;
+  width: 100%;
+}
+.main-area-two {
+  height: 600px;
+  width: 15%;
+  float: left;
+}
+.main-area-three {
+  height: 800px;
+  width: 40%;
+
+  overflow: hidden;
+}
+/* MAIN AREA PART THREE  */
+.main-area-three-part-one {
+  width: 100%;
+}
+.main-area-three-part-two {
+  width: 100%;
+  color: #727470;
+}
+.main-area-three-part-three {
+  width: 100%;
+  height: 20px;
+  border-radius: 20px;
+}
+.main-area-three-part-three-part-one {
+}
+.main-area-three-part-three-part-one input[type="text"] {
+  float: left;
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 15px;
+  font-size: 20px;
+}
+.main-area-three-part-three-part-two input[type="text"] {
+  width: 58%;
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 5px 20px;
+}
+.main-area-three-part-three-part-two {
+  width: 60%;
+  float: right;
+}
+.main-area-three-part-four {
+  height: 10px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.main-area-three-part-four input[type="text"] {
+  width: 75%;
+  padding: 10px 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.main-area-three-part-five {
+  text-align: left;
+}
+.main-area-three-part-five input[type="password"] {
+  margin-top: 10px;
+  width: 75%;
+  padding: 10px 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.main-area-three-part-six {
+  height: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: #9fa2a9;
+}
+.main-area-three-part-seven {
+  width: 100%;
+}
+.main-area-three-part-seven input[type="date"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px 25px;
+}
+.main-area-three-part-eight {
+  height: 10px;
+  margin-bottom: 25px;
+  width: 100%;
+  color: #9fa2a9;
+}
+.main-area-three-part-nine {
+  width: 100%;
+}
+.main-area-three-part-ten {
+  color: #9fa2a9;
+  width: 100%;
+}
+.main-area-three-part-eleven {
+  width: 100%;
+}
+.main-area-three-part-eleven button {
+  border: 1px solid #ccc;
+  padding: 5px 55px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background-color: #62a34f;
+  color: #f2ffe2;
+  font-size: 20px;
+  cursor: pointer;
+}
+.main-area-three-part-eleven button:hover {
+  background-color: #45a049;
+}
+
+.main-area-three-part-twelve {
+  height: 100px;
+  width: 100%;
+}
+.main-area-three-part-twelve a {
+  color: #3d5b99;
+  text-decoration: none;
+}
+.main-area-three-part-twelve a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background: white;
+}
+
+.footer-center {
+  height: 170px;
+  width: 100%;
+}
+.footer-center-top {
+  margin-top: 20px;
+  margin-left: 150px;
+  width: 80%;
+  height: 50px;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+}
+.footer-center-middle {
+  margin-left: 150px;
+  width: 80%;
+  height: 50px;
+}
+.footer-center-middle a {
+  color: #0000ee;
+  text-decoration: none;
+}
+.footer-center-middle a:hover {
+  text-decoration: underline;
+}

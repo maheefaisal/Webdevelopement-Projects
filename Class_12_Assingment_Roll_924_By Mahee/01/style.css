@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+.submenu {
+
+  background-color: #2f3640;
+  width: 100%;
+  overflow: auto;
+}
+
+.submenu::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.submenu ul
+{
+    margin: 0;
+    list-style: none;
+}
+
+
+.submenu a
+{
+    float: left;
+    width: 8%;
+    text-align: center;
+    padding: 10px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 30px;
+}
+
+.submenu a:hover
+{
+    background: #ced6e0;
+}
+.active
+{
+    background: #7f8fa6;
+}

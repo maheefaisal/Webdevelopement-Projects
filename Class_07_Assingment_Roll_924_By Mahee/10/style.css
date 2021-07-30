@@ -1,0 +1,19 @@
+body
+{
+  margin: 0;
+  background: rgb(6, 82, 221);
+}
+@media only screen  and (max-width: 600px){
+  body 
+  {
+    background: skyblue;
+  }
+  div.magic 
+  {
+    display: none;
+  }
+  div.resize 
+  {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,18 @@
+body {
+  background: #b2bec3;
+}
+h1 {
+  color: #0097e6;
+  background: #006266;
+  font-size: 50px;
+}
+p {
+  color: #3c40c6;
+  text-decoration: wavy;
+  font-size: 20px;
+  font-family: cursive;
+}
+h2 {
+  color: #b71540;
+  background-color: #786fa6;
+}

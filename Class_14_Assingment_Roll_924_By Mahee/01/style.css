@@ -1,0 +1,352 @@
+/* body */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*                         ------------------- Part one ---------------------------*/
+.part-one {
+  background: #23232e;
+  height: 800px;
+  width: 100%;
+}
+
+/* Part one image styling  */
+.logo {
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Part one message styling */
+.part-one .message {
+  text-align: center;
+  color: white;
+  font-size: 38px;
+  text-transform: uppercase;
+  margin-top: 150px;
+}
+
+/* styling p in message  */
+.message p {
+  font-size: 15px;
+  text-transform: none;
+  margin-bottom: 200px;
+}
+
+/* Styling partones downward arrow logo a */
+.arrow-logo a i {
+  color: #cdcdcf;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #fcfcfc;
+  border-radius: 50%;
+  padding: 6px 6px;
+}
+
+/* Arrow logo inside part one  */
+.arrow-logo {
+  text-align: center;
+}
+
+/* --------------------------------------PART TWO--------------------- */
+.part-two {
+  height: 700px;
+  width: 100%;
+}
+
+/* Part twos message styling */
+.part-two .message p {
+  text-align: center;
+  color: #464b4f;
+  font-size: 20px;
+  margin: auto;
+  width: 45%;
+  font-weight: normal;
+  padding-top: 50px;
+  padding: none;
+}
+
+/* Part twos h1 styling  */
+.part-two .message h2 {
+  text-align: center;
+  color: #464b4f;
+  font-size: 60px;
+  text-transform: uppercase;
+  padding: none;
+  margin: none;
+}
+
+/* part twos services and defination styling for name */
+.services-name-defination {
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Part twos column styling  */
+.column {
+  width: 31.33%;
+  margin: 0 1%;
+  float: left;
+  overflow: hidden;
+}
+
+/* h4 styling of part two  */
+.column h4 {
+  text-transform: uppercase;
+}
+
+/* Setting a background image for part two  */
+.part-two {
+  background-image: url("Image/05.png");
+  background-size: cover;
+}
+
+/*------------------------ Part three ------------------------------------------------- */
+.part-three {
+  height: 1200px;
+  background-color: #23232e;
+}
+
+/* Part three heading  */
+.part-three .heading h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* part three menu styling  */
+
+.part-three .menu ul {
+  margin: 0;
+  list-style: none;
+  margin: auto;
+  width: 50%;
+  margin: 0 25%;
+  float: left;
+  padding-bottom: 50px;
+}
+
+.menu > ul > li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  padding: 5px 0;
+}
+
+.menu ul li:hover a {
+  border-bottom: 3px solid #7b77c9;
+}
+
+.menu ul .active a {
+  border-bottom: 3px solid #7b77c9;
+}
+
+/* Styling image part-three */
+.part-three .image-part-three .column {
+  width: 20%;
+  margin-left: 9%;
+}
+
+/* styling part threes h4 */
+.part-three .column h4 {
+  color: white;
+  text-align: center;
+}
+
+/* styling part part threes p */
+.part-three .column p {
+  color: #ffffff;
+  text-align: center;
+}
+
+/* styling part threes row two */
+.part-three .row-two .column h4 {
+  text-align: center;
+  padding-left: 15%;
+}
+
+/* styling part threes row two */
+.part-three .row-two .column p {
+  text-align: center;
+  padding-left: 16%;
+}
+
+/* styling part threes row two */
+.part-three .row-two-thirdcolumn .column h4 {
+  padding-right: 25%;
+}
+
+/* styling part threes row two */
+.part-three .row-two-thirdcolumn .column p {
+  padding-right: 23%;
+}
+
+/* styling part threes button  */
+.part-three .button-part-three {
+  margin-left: 43%;
+}
+
+.part-three button {
+  padding: 15px 50px;
+  background-color: #7b77c9;
+  color: white;
+  border-radius: 5px;
+  text-transform: capitalize;
+  margin-top: 10%;
+}
+
+/* ----------------------------------Part four--------------- */
+.part-four {
+  height: 950px;
+  background-color: white;
+}
+
+/* Working on part fours h two  */
+.part-four h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 80px;
+  margin: 0;
+}
+
+/* Working on part fours p  */
+.part-four p {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  color: #5a5b5c;
+  padding: 10px;
+}
+
+/* working on columns  */
+.part-four .columns {
+  padding-left: 5%;
+}
+
+/* Working on columns second half  */
+.part-four .columns-second {
+  padding-left: 5%;
+  padding-top: 25%;
+}
+
+/* Working on part fours button  */
+.part-four .button-part-four {
+  margin-left: 42%;
+}
+
+.part-four button {
+  padding: 15px 40px;
+  background-color: #7b77c9;
+  color: white;
+  border-radius: 5px;
+  text-transform: capitalize;
+  margin-top: 10%;
+  border-color: transparent;
+}
+
+.part-four {
+  background-image: url("Image/05.png");
+  background-size: cover;
+}
+
+
+
+/* ----------------------------------Part five--------------- */
+.part-five {
+  height: 500px;
+  background-color: #23232e;
+}
+
+/* working on infinity sign  */
+.part-five .infinity-sign {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-left: 47.5%;
+  padding-top: 10%;
+  padding-bottom: 2%;
+}
+
+/* working on part fives p */
+.part-five .message-to-the-audience {
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 2%;
+}
+
+/* working on form for part five  */
+.part-five form
+{
+  text-align: center;
+}
+
+/* working on part fives input one  */
+.part-five form input[type="text"]
+{
+  padding: 18px 5px;
+  width: 20%;
+  border: transparent;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.part-five form input[type="submit"]
+{
+  padding: 20px 30px;
+  width: 10%;
+  margin-left: 0.5%;
+  color: #ffffff;
+  background-color: #7C77C9;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: transparent;
+}
+/*----------------------- Part six ----------------------------*/
+.part-six {
+  height: 150px;
+}
+
+/* Working on icons  */
+
+.icons ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 5%;
+  
+}
+
+.icons ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.icons ul li a
+{
+  color: #666666;
+}
+
+/* working on copyright */
+.part-six .copyright
+{
+  text-align: center;
+  color: #cccccc;
+  text-transform: capitalize;
+}
+
+.part-six {
+  padding: 50px 0;
+  background-image: url("Image/05.png");
+  background-size: cover;
+}

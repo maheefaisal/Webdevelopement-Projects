@@ -1,0 +1,10 @@
+@media all and (max-width: 768px) {
+  .part-two {
+    height: 900px;
+  }
+
+  .part-three
+  {
+      height: 1300px;
+  }
+}
