@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+.box-one {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-color: #7f8c8d;
+  animation: mahee 2s infinite;
+}
+
+@keyframes mahee {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 50px;
+  }
+}
+
+.box-two
+{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    position: relative;
+    animation: hitman 5s infinite;
+    animation-delay: 3s;
+    animation-timing-function: linear;
+}
+
+@keyframes hitman {
+    0%{top: 0;}
+    10%{top: 10px;}
+    20%{top: 20px;}
+    30%{top: 30px;}
+    40%{top: 40px;}
+    50%{top: 50px; 
+        background-color: black;
+        width: 400px;
+        left: 200px;
+    }
+    60%{top: 60px;}
+    70%{top: 70px;}
+    80%{top: 80px;}
+    90%{top: 90px;}
+    100%{top: 0;}
+}

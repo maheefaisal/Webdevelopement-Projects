@@ -1,0 +1,496 @@
+/* Body start  */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Body end  */
+
+/* sectione one start  */
+.section-one {
+  height: 750px;
+  background-image: url("images/02.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.section-one .one {
+  height: 100px;
+  width: 80%;
+  margin-left: 17%;
+  padding-top: 60px;
+}
+
+.section-one .one ul {
+  margin: 0;
+  list-style: none;
+}
+
+.section-one .one ul > li {
+  float: left;
+  position: relative;
+}
+
+.section-one ul li a {
+  color: white;
+  padding: 30px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5%;
+  font-size: 20px;
+  border: 1px solid transparent;
+}
+
+.section-one ul li a:hover {
+  border-bottom: 1px solid #16a086;
+}
+
+.section-one .one ul .camera-image img {
+  margin: -15px 20px;
+  height: 50px;
+  width: auto;
+}
+
+.section-one .two {
+  width: 100%;
+  margin-top: 15%;
+}
+.section-one .two {
+  text-align: center;
+}
+.section-one .two h1 {
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #f5f6f8;
+  font-size: 40px;
+}
+
+.section-one .two h3 {
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  color: #f5f6f8;
+}
+
+.section-one .two input[type="submit"] {
+  text-transform: uppercase;
+  padding: 15px 27px;
+  border-radius: 3px;
+  border: transparent;
+  background-color: #16a086;
+  color: white;
+  border: 1px solid transparent;
+}
+
+.section-one .two input[type="submit"]:hover {
+  background-color: #10eec5;
+  color: #2c3e50;
+}
+.section-one .three {
+  width: 50%;
+  margin-left: 41.5%;
+  margin-top: 12%;
+}
+
+.section-one .three ul {
+  list-style: none;
+}
+.section-one .three ul li {
+  float: left;
+}
+.section-one .three ul li a {
+  padding: 10px 10px;
+  font-size: 25px;
+}
+/* sectione one end  */
+
+/* Section two start  */
+.section-two {
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+}
+.section-two .one h2
+{
+  color: #16a086;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+.section-two .one p
+{
+  padding-left: 10%;
+}
+.section-two .one img
+{
+  height: 800px;
+  width: auto;
+  position: relative;
+  margin-left: 40%;
+  margin-top: -25%;
+  background-position: bottom right;
+}
+.section-two .one input[type="submit"] {
+  text-transform: uppercase;
+  padding: 15px 47px;
+  border-radius: 3px;
+  border: transparent;
+  background-color: #16a086;
+  color: white;
+  border: 1px solid transparent;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.section-two .one input[type="submit"]:hover {
+  background-color: #10eec5;
+  color: #2c3e50;
+}
+/* Section two end  */
+
+/* Section three start  */
+.section-three {
+  height: 600px;
+  width: 100%;
+  color: #f5f6f8;
+}
+.section-three .one {
+  height: 600px;
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+.section-three .one img {
+  padding-top: 30%;
+  padding-left: 15%;
+}
+.section-three .two {
+  float: left;
+}
+
+.section-three .two h2 {
+  padding-top: 30%;
+  text-transform: uppercase;
+  color: #17a082;
+  letter-spacing: 3px;  
+}
+.section-three .two p {
+  color: #373737;
+  letter-spacing: 3px;
+}
+
+.section-three .two .second-p p
+{
+  color: #373737;
+  font-weight: bold;
+  margin: 0 0;
+  padding: 0 0 ;
+  margin-top: 5%;
+  padding-left: 1%;
+  
+}
+
+.section-three .two input[type="submit"] {
+  text-transform: uppercase;
+  padding: 15px 47px;
+  border-radius: 3px;
+  border: transparent;
+  background-color: #16a086;
+  color: white;
+  border: 1px solid transparent;
+  margin-top: 5%;
+}
+
+.section-three .two input[type="submit"]:hover {
+  background-color: #10eec5;
+  color: #2c3e50;
+}
+
+.section-three .one ul {
+  list-style: none;
+  margin: 0 0;
+}
+
+.section-three .two ul li {
+  float: left;
+  padding: 10px 10px;
+
+  position: relative;
+  /* Adjust these values accordingly */
+  bottom: 30px;
+  right: 8%;
+}
+
+.section-three .two ul li a {
+  text-decoration: none;
+  margin: 0 0 ;
+  font-size: 40px;
+}
+/* Section three end  */
+
+/* Section four start  */
+.section-four {
+  height: 500px;
+  width: 100%;
+}
+.section-four .one {
+  height: 100px;
+  width: 100%;
+}
+.section-four .one ul {
+  list-style: none;
+  margin: 0 0;
+}
+
+.section-four .one ul li {
+  float: left;
+  padding: 10px 10px;
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 50px;
+  left: 1120px;
+}
+
+.section-four .one ul li a {
+  text-decoration: none;
+  font-size: 30px;
+}
+.section-four .two {
+  padding-left: 10%;
+}
+.section-four .two .two-one {
+  width: 20%;
+  float: left;
+  overflow: hidden;
+  padding-right: 6%;
+}
+.section-four .two .two-one h3 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.section-four .two .two-one p {
+  text-align: center;
+  letter-spacing: 3px;
+}
+.section-four .two .two-one img {
+  padding-left: 40%;
+  padding-top: 10%;
+}
+.section-four .two .two-two {
+  float: left;
+  overflow: hidden;
+}
+.section-four .two .two-two img {
+  height: 245px;
+}
+.section-four .two .two-three {
+  float: left;
+}
+.section-four .two .two-three img {
+  padding-left: 5%;
+}
+/* Section four end  */
+
+/* Section five start  */
+.section-five {
+  background-image: url("images/06.jpg");
+  height: 750px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.section-five .one {
+}
+
+.section-five .one h2 {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 300px;
+}
+
+.section-five .two {
+  padding-left: 38%;
+}
+.section-five .two input[type="text"] {
+  text-transform: uppercase;
+  padding: 14.5px 40px;
+  border-radius: 1.5px;
+  border: transparent;
+  background-color: white;
+  color: #373737;
+  border: 1px solid transparent;
+  float: left;
+  overflow: hidden;
+  padding-left: 0;
+  padding-left: 15px;
+  font-weight: bold;
+  border-right: none;
+  border-radius: white;
+}
+
+.section-five .two input:hover {
+  background-color: whitesmoke;
+  color: #2c3e50;
+}
+
+.section-five .two button {
+  text-transform: uppercase;
+  padding: 15px 20px;
+  border-radius: 1.5px;
+  border: transparent;
+  background-color: #16a086;
+  color: white;
+  border: 1px solid transparent;
+  float: left;
+  border-right: none;
+  font-size: 20px;
+}
+.section-five .two button:hover {
+  background-color: #10eec5;
+  color: #2c3e50;
+}
+/* Section five end  */
+
+/* Section six start  */
+.container {
+  width: 80%;
+  margin: auto;
+}
+.section-six {
+  height: 400px;
+  width: 100%;
+  background-color: #f5f6f8;
+}
+.section-six .one {
+  width: 100%;
+}
+.section-six .container .one h3 {
+  margin: 0 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 25px;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+.section-six .container .one p {
+  margin: 0 0;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 20px;
+  padding-bottom: 30px;
+}
+
+.section-six .two {
+  padding-left: 23%;
+}
+.section-six .two .two-one {
+  float: left;
+  overflow: hidden;
+}
+.section-six .two .two-one ul input[type="button"] {
+  text-transform: uppercase;
+  padding: 14.5px 40px;
+  border-radius: 1.5px;
+  border: transparent;
+  background-color: #1bbc9b;
+  color: white;
+  border: 1px solid transparent;
+  float: left;
+  overflow: hidden;
+}
+
+.section-six .two .two-one ul input:hover {
+  background-color: #10eec5;
+  color: #2c3e50;
+}
+
+.section-six .two .two-one ul button {
+  text-transform: uppercase;
+  padding: 17px 20px;
+  border-radius: 1.5px;
+  border: transparent;
+  background-color: #16a086;
+  color: white;
+  border: 1px solid transparent;
+  float: left;
+  border-right: none;
+}
+.section-six .two .two-one ul button:hover {
+  background-color: #10eec5;
+  color: #2c3e50;
+}
+
+.section-six .two .two-two {
+  float: left;
+}
+
+.section-six .two .two-two ul input[type="button"] {
+  text-transform: uppercase;
+  padding: 14.5px 35px;
+  border-radius: 1.5px;
+  border: transparent;
+  background-color: #1bbc9b;
+  color: white;
+  border: 1px solid transparent;
+  float: left;
+  overflow: hidden;
+}
+
+.section-six .two .two-two ul input:hover {
+  background-color: #10eec5;
+  color: #2c3e50;
+}
+
+.section-six .two .two-two ul button {
+  text-transform: uppercase;
+  padding: 17px 20px;
+  border-radius: 1.5px;
+  border: transparent;
+  background-color: #16a086;
+  color: white;
+  border: 1px solid transparent;
+  float: left;
+}
+.section-six .two .two-two ul button:hover {
+  background-color: #10eec5;
+  color: #2c3e50;
+}
+
+/* Section six end  */
+
+/* Section seven start  */
+.section-seven {
+  height: 130px;
+}
+.section-seven .one {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+  padding-left: 120px;
+  padding-top: 20px;
+}
+.section-seven .one .first p {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.section-seven .one p {
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.section-seven .two img {
+  height: 55px;
+  width: auto;
+  float: left;
+  padding-left: 30%;
+  padding-top: 30px;
+}
+/* Section seven start  */
