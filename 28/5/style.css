@@ -1,0 +1,12 @@
+/* Body  */
+body {
+  margin: 0;
+}
+/* UL  */
+ul {
+  list-style: none;
+  width: 50%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

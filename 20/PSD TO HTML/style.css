@@ -1,0 +1,197 @@
+/* Section one  */
+.section-one {
+  background-image: url("image/YEBO_Bicycle_Theme_background.jpg");
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.section-one ul li {
+  font-weight: bold;
+}
+
+.section-one .section-one-option {
+  padding-top: 5%;
+  padding-right: 50px;
+}
+.section-one .section-one-menu {
+  margin-top: 5%;
+}
+.section-one ul li a img {
+  padding-left: 20px;
+  padding-right: 70px;
+}
+/* Section one end  */
+/* Section two */
+.section-two {
+  height: 500px;
+  width: auto;
+  background-color: #f7f7f7;
+}
+.section-two h4 {
+  letter-spacing: 2px;
+  margin-bottom: 2%;
+  font-size: 20px;
+}
+.section-two p {
+  line-height: 30px;
+  color: #848789;
+}
+.section-two img {
+  margin-top: 10%;
+  margin-left: 49%;
+  margin-bottom: 3%;
+}
+/* Section two ends*/
+/* Section three  */
+.section-three {
+  height: 500px;
+  width: auto;
+  background-color: #fefefe;
+  overflow: hidden;
+}
+.section-three .part-one {
+  height: 500px;
+  width: 70%;
+  float: left;
+  overflow: hidden;
+}
+.section-three .part-one img {
+  height: 500px;
+  width: 100%;
+}
+
+.section-three .part-two {
+  height: 500px;
+  width: 30%;
+  float: right;
+}
+.section-three .part-two p {
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 0 21px;
+  color: #848789;
+}
+.section-three .part-two h4 {
+  padding-bottom: 2%;
+}
+
+.section-three .part-two .container img {
+  padding-left: 46%;
+  margin-top: 15%;
+  padding-bottom: 5%;
+}
+.section-three .part-three {
+  height: 200px;
+  width: 100%;
+  margin-top: 5%;
+}
+.section-three .part-three img {
+  height: 200px;
+  width: 100%;
+}
+
+/* Section three  edns*/
+/* section four  */
+.section-four {
+  background-color: white;
+  height: 500px;
+  width: 100%;
+}
+
+.section-four .part-one {
+  height: 500px;
+  width: 30%;
+  float: left;
+  overflow: hidden;
+}
+.section-four .part-one img {
+  padding-top: 40px;
+  padding-left: 46%;
+  padding-bottom: 20px;
+}
+.section-four .part-one h5 {
+  letter-spacing: 2px;
+}
+.section-four .part-one p {
+  color: #848789;
+  text-align: left;
+  padding: 10px 20px;
+  padding-bottom: 55px;
+}
+
+.section-four .part-one .part-two {
+  height: 250px;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+.section-four .part-one .part-two img {
+  width: auto;
+  height: 152px;
+}
+
+.section-four .part-two img {
+  padding: 0 0;
+}
+.section-four .part-three {
+  height: 500px;
+  width: 70%;
+  float: right;
+  overflow: hidden;
+}
+/* section four  ends*/
+
+/* Section five   */
+.section-five {
+  height: 500px;
+  width: 100%;
+}
+.section-five .part-one {
+  height: 500px;
+  width: 33.33%;
+  float: left;
+  overflow: hidden;
+}
+.section-five .part-one img {
+  height: 500px;
+  width: 100%;
+}
+.section-five .part-two {
+  height: 500px;
+  width: 33.33%;
+  float: left;
+  overflow: hidden;
+}
+
+.section-five .part-two img {
+  margin-left: 50%;
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+.section-five .part-two h5 {
+  padding: 5px 0;
+  letter-spacing: 2px;
+}
+.section-five .part-two p {
+  padding: 0 20px;
+  color: #848789;
+}
+.section-five .part-three {
+  height: 500px;
+  width: 33.33%;
+  float: left;
+  overflow: hidden;
+}
+.section-five .part-three img{
+  height: 500px;
+  width: 100%;
+}
+.section-five .part-two .part-four {
+  height: 250px;
+  width: 100%;
+  margin-top: 10%;
+}
+.section-five .part-two .part-four img {
+  margin: 0 0;
+}
+/* Section five end*/

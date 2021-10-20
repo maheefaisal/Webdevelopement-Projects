@@ -1,0 +1,447 @@
+/* Section one  */
+.section-one {
+  background-image: url("image/YEBO_Bicycle_Theme_background.jpg");
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.section-one ul li {
+  font-weight: bold;
+}
+
+.section-one .section-one-option {
+  padding-top: 5%;
+  padding-right: 50px;
+}
+.section-one .section-one-menu {
+  margin-top: 5%;
+}
+.section-one ul li a img {
+  padding-left: 20px;
+  padding-right: 70px;
+}
+/* Section one end  */
+/* Section two */
+.section-two {
+  height: 500px;
+  width: auto;
+  background-color: #f7f7f7;
+}
+.section-two h4 {
+  letter-spacing: 2px;
+  margin-bottom: 2%;
+  font-size: 20px;
+}
+.section-two p {
+  line-height: 30px;
+  color: #848789;
+}
+.section-two img {
+  margin-top: 10%;
+  margin-left: 49%;
+  margin-bottom: 3%;
+}
+/* Section two ends*/
+/* Section three  */
+.section-three {
+  height: 500px;
+  width: auto;
+  background-color: #fefefe;
+  overflow: hidden;
+}
+.section-three .part-one {
+  background-image: url("image/YEBO_Bicycle_picture_one.jpg");
+  height: 500px;
+  width: 70%;
+  float: left;
+  overflow: hidden;
+  background-size: 100% 500px;
+}
+
+.section-three .part-two {
+  height: 500px;
+  width: 30%;
+  float: right;
+}
+.section-three .part-two p {
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 10px 35px;
+  color: #848789;
+  text-align: justify;
+}
+.section-three .hr-styling {
+  width: 10%;
+  height: 2px;
+  margin-left: 45%;
+}
+
+.section-three .part-two .container img {
+  padding-left: 46%;
+  margin-top: 20.5%;
+  padding-bottom: 5%;
+}
+.section-three .part-three {
+  background-image: url("image/YEBO_Bicycle_picture_two.jpg");
+  height: 200px;
+  width: 100%;
+  background-size: 100% 160px;
+  background-repeat: no-repeat;
+  margin-top: 18%;
+}
+.section-three .triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid white;
+  margin-left: 47%;
+}
+
+/* Section three  edns*/
+/* section four  */
+.section-four {
+  background-color: white;
+  height: 500px;
+  width: 100%;
+}
+
+.section-four .part-one {
+  height: 500px;
+  width: 30%;
+  float: left;
+  overflow: hidden;
+}
+.section-four .triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid white;
+  margin-left: 45%;
+}
+.section-four .part-one h5 {
+  letter-spacing: 2px;
+}
+.section-four .part-one p {
+  color: #848789;
+  text-align: left;
+  padding: 10px 20px;
+  padding-bottom: 55px;
+}
+
+.section-four .part-one .part-two {
+  height: 250px;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  margin-top: 3%;
+  background-image: url("image/YEBO_Bicycle_Theme-section-four-one.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 180px;
+  margin-top: 14%;
+}
+.section-four .part-one img {
+  padding-left: 48%;
+  margin-top: 10%;
+}
+.section-four .part-one .part-two img {
+  width: auto;
+  height: 152px;
+}
+
+.section-four .part-two img {
+  padding: 0 0;
+}
+.section-four .part-three {
+  height: 500px;
+  width: 70%;
+  float: right;
+  overflow: hidden;
+  background-image: url("image/YEBO_Bicycle_Theme-section-four-two.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+}
+.section-four .hr-styling {
+  width: 10%;
+  height: 2px;
+  margin-left: 43%;
+}
+/* section four  ends*/
+
+/* Section five   */
+.section-five {
+  height: 500px;
+  width: 100%;
+}
+.section-five .part-one {
+  height: 500px;
+  width: 33.33%;
+  float: left;
+  overflow: hidden;
+  background-image: url("image/YEBO_Bicycle_Theme-Section-Five-One.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+}
+.section-five .part-one img {
+  height: 500px;
+  width: 100%;
+}
+.section-five .part-two {
+  height: 500px;
+  width: 33.33%;
+  float: left;
+  overflow: hidden;
+}
+
+.section-five .part-two img {
+  margin-left: 50%;
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+.section-five .part-two h5 {
+  padding: 5px 0;
+  letter-spacing: 2px;
+}
+.section-five .part-two p {
+  padding: 0 20px;
+  color: #848789;
+}
+.section-five .part-three {
+  height: 500px;
+  width: 33.33%;
+  float: left;
+  overflow: hidden;
+  background-image: url("image/YEBO_Bicycle_Theme-Section-Five-Three.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+}
+.section-five .part-three img {
+  height: 500px;
+  width: 100%;
+}
+.section-five .part-two .part-four {
+  height: 250px;
+  width: 100%;
+  margin-top: 20%;
+  background-image: url("image/YEBO_Bicycle_Theme-Section-Five-Two.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 190px;
+}
+.section-five .part-two .part-four img {
+  margin: 0 0;
+}
+.section-five .triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid white;
+  margin-left: 47%;
+}
+.section-five .hr-styling {
+  width: 10%;
+  height: 2px;
+  margin-left: 44%;
+  margin-top: 40px;
+}
+/* Section five end*/
+/* Section six */
+.section-six {
+  height: 500px;
+  width: 100%;
+  text-align: center;
+}
+.section-six span {
+  color: #b7b9ba;
+}
+.section-six p {
+  color: #848789;
+  margin-top: 1%;
+  font-size: 19px;
+}
+.section-six svg {
+  color: rgb(20, 183, 224);
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+.section-six h5 {
+  letter-spacing: 1px;
+}
+/* Section six end*/
+/* Section seven */
+.section-seven {
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+.section-seven .partone {
+  height: 500px;
+  width: 40%;
+  background-color: burlywood;
+  overflow: hidden;
+  float: left;
+}
+.section-seven .partone .one {
+  height: 250px;
+  width: 50%;
+  background-color: aquamarine;
+  float: left;
+  overflow: hidden;
+}
+.section-seven .partone .one {
+  background-image: url(image/YEBO_Bicycle_Theme-Section-seven-part-one.jpg);
+  background-size: 270px 250px;
+  background-repeat: no-repeat;
+}
+.section-seven .partone .two {
+  height: 250px;
+  width: 50%;
+  background-color: blue;
+  overflow: hidden;
+  float: left;
+}
+.section-seven .partone .two {
+  background-image: url(image/YEBO_Bicycle_Theme-Section-seven-part-two.jpg);
+}
+.section-seven .partone .three {
+  height: 250px;
+  width: 100%;
+  float: inline-end;
+}
+.section-seven .partone .three {
+  background-image: url(image/YEBO_Bicycle_Theme-Section-seven-part-three.jpg);
+}
+.section-seven .parttwo {
+  height: 500px;
+  width: 30%;
+  float: left;
+  overflow: hidden;
+}
+.section-seven .parttwo .one {
+  height: 500px;
+  width: 50%;
+  float: left;
+  overflow: hidden;
+  background-image: url(image/YEBO_Bicycle_Theme-Section-seven-partone.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.section-seven .parttwo .two {
+  height: 500px;
+  width: 50%;
+  float: left;
+  overflow: hidden;
+  background-image: url(image/YEBO_Bicycle_Theme-Section-seven-parttwo.jpg);
+  background-size: 100% 100%;
+}
+.section-seven .partthree {
+  height: 500px;
+  width: 30%;
+  float: left;
+  overflow: hidden;
+}
+.section-seven .partthree .one {
+  height: 250px;
+  width: 100%;
+}
+
+.section-seven .partthree .two {
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+  float: inline-end;
+  background-image: url(image/YEBO_Bicycle_Theme-two.jpg);
+  background-size: 100% 100%;
+}
+/* Section seven end*/
+/* section eight  */
+.section-eight {
+  height: 200px;
+  width: 100%;
+  background-color: #282f35;
+}
+.section-eight .one button {
+  margin-left: 48%;
+  margin-top: 5%;
+  padding: 10px 40px;
+}
+/* section eight  ends*/
+/* section nine  */
+.section-nine {
+  height: 400px;
+  width: 100%;
+  background-color: white;
+}
+.section-nine img {
+  margin-top: 8%;
+  margin-bottom: 2%;
+}
+.section-nine form {
+  margin-left: 30%;
+}
+.section-nine input {
+  padding-right: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 0px;
+  text-align: left;
+  color: #b7b9ba;
+}
+.section-nine button {
+  padding: 17px 40px;
+  background-color: #64c29e;
+  border-radius: 0px;
+  border-color: transparent;
+  font-size: 20px;
+}
+.section-nine p {
+  color: #848789;
+  font-size: 20px;
+  margin-bottom: 3%;
+}
+/* section nine  ends*/
+/* SECTION Ten  */
+.section-ten {
+  height: 150px;
+  width: 100%;
+  background-color: #fcf8f8;
+}
+.section-ten span {
+  color: #848789;
+}
+.section-ten p {
+  color: #b7b9ba;
+  margin-top: 10%;
+}
+.section-ten li {
+  list-style: none;
+  float: left;
+  padding: 20px 20px;
+}
+.section-ten ul {
+  margin-top: 8%;
+  margin-left: 10%;
+}
+.section-ten ul li a {
+  text-decoration: none;
+  font-size: 38px;
+  padding: 15px 1px;
+}
+.section-ten .third {
+  margin-top: 10%;
+}
+.section-ten .third img {
+  float: left;
+  padding: 10% 5%;
+}
+.section-ten .third p {
+  float: left;
+  overflow: hidden;
+  margin: 0 0;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+/* Section ten ends  */

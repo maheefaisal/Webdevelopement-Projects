@@ -1,0 +1,78 @@
+/* Body  */
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* Fixed  */
+.fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+}
+.fixed ul 
+{
+  text-align: center;
+}
+.fixed ul li
+{
+  float: none;
+  display: inline;
+}
+.fixed ul li a
+{
+  display: inline-block;
+}
+/* Container  */
+.container{
+  max-width: 960px;
+  margin: auto ;
+}
+
+/* Scroll To Top   */
+.scrolltotop {
+  color: #2d3436;
+  background-color: #b2bec3;
+  padding: 10px 10px;
+  position: fixed;
+  right: 15px;
+  bottom: 0;
+  text-decoration: none;
+}
+
+/* Main Menu   */
+.main-menu {
+  background-color: #7ed6df;
+}
+/* Working on main menu after   */
+.main-menu:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* Styling the ul of the main menu   */
+.main-menu ul {
+  list-style: none;
+  margin: 0;
+}
+/* Styling the li of main menu   */
+.main-menu ul li {
+  float: left;
+  position: relative;
+}
+/* Styling a of main menu   */
+.main-menu ul li a,
+.main-menu .bar {
+  display: block;
+  color: #30336b;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
+/* Styling the current in the mainmenu  */
+.main-menu ul li:hover a,
+.main-menu ul .current a {
+  background-color: #c7ecee;
+}

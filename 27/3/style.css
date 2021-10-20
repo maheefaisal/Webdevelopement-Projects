@@ -1,0 +1,29 @@
+/* Body styling */
+body {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Image styling for the advertisement*/
+#advertisement img {
+  height: 300px;
+  width: 400px;
+}
+
+/* Styling advertisement */
+#advertisement {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -15%;
+  margin-top: -9%;
+}
+
+/* Styling the close button  */
+.close {
+  color: cyan;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  text-decoration: none;
+}

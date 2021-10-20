@@ -1,0 +1,26 @@
+/* .box {
+  height: 500px;
+  width: 500px;
+  transition: 2s;
+  background-image: url("image/one.jpg");
+
+}
+.box:hover {
+  height: 500px;
+  width: 500px;
+  background-image: url("image/two.jpg");
+  background-repeat: no-repeat;
+  transition: 10s;
+} */
+
+.box {
+  height: 500px;
+  width: 500px;
+  transition: 2s;
+  background-image: url(image/YEBO_Bicycle_Theme.jpg);
+  background-repeat: no-repeat;
+}
+.box:hover {
+  background-color: blue;
+
+}

@@ -1,0 +1,14 @@
+@media all and (max-width: 768px) {
+  .part-two img {
+    padding-left: 25%;
+  }
+  .part-seven iframe {
+    width: 700px;
+  }
+  .part-eleven button {
+    margin-left: 38%;
+  }
+  .part-eleven .three textarea {
+   width: 695px;
+  }
+}

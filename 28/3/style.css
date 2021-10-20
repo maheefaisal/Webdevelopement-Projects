@@ -1,0 +1,15 @@
+/* Ui selected   */
+.box .ui-selected {
+  color: darkcyan;
+}
+
+/* Something starts  */
+.something {
+  width: 50%;
+  margin: auto;
+}
+
+/* Styling the ui Icon  */
+.something .ui-state-active .ui-icon {
+  background-image: url("jqueryui/images/ui-icons_777620_256x240.png");
+}

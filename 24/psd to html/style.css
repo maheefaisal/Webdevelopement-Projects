@@ -1,0 +1,372 @@
+/* Section Body  */
+body {
+  margin: 0;
+}
+/* body ends   */
+
+/* Section one  */
+.one {
+  background-color: #87509c;
+  height: 500px;
+  width: 100%;
+}
+
+/* Cuda image modify */
+.one .uk-navbar-left img {
+  margin-left: 25%;
+}
+
+/* Modifying the right side of the navbar   */
+.one .uk-navbar-right ul li a {
+  color: #ffffff;
+}
+
+/* Modifying the left side of the navbar   */
+.one .uk-navbar-right ul li a:hover {
+  color: black;
+  padding: 2px 15px;
+  border: transparent;
+}
+
+/* Button  */
+.one button {
+  background-color: #eb7d4b;
+  border: transparent;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 15px 60px;
+  font-weight: 100;
+  line-height: 19px;
+  box-shadow: 0 4px #b4643f;
+  font-weight: bold;
+}
+.one button:hover {
+  box-shadow: 0 12px 16px 0 rgba(232, 67, 147, 1),
+    0 17px 50px 0 rgba(232, 67, 147, 1);
+  color: tomato;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Message to viewer  */
+.one h1 {
+  color: #f7f3ea;
+  font-weight: bolder;
+  font-size: 35px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/* Section one  ends*/
+
+/* Section two  */
+.two {
+  background-color: #17c2a4;
+}
+/* Services */
+.two h2 {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bolder;
+  padding-top: 80px;
+  letter-spacing: 5px;
+}
+/* Header */
+.two hr {
+  width: 6%;
+  border: 2px solid #14a58c;
+  margin-left: 47%;
+}
+
+/* The way we are working */
+.two .part-one {
+  text-align: center;
+  color: white;
+  word-spacing: 2px;
+  padding-bottom: 50px;
+}
+/* Styling List of what we do  */
+.two .uk-container img {
+  padding-left: 80px;
+}
+.two .uk-container .pencilimage {
+  padding-left: 30px;
+}
+.two .uk-container p {
+  color: white;
+  padding-bottom: 100px;
+}
+.two .uk-container h4 {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+
+/* Section two  ends*/
+
+/* Section three  */
+.three {
+  background-color: #e7f1f8;
+}
+.three h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3px;
+  padding-top: 10%;
+}
+.three hr {
+  width: 6%;
+  border: 2px solid #c8d9e5;
+  margin-left: 47%;
+}
+.three .teammoto p {
+  color: #3c4761;
+  text-align: center;
+}
+.three img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-left: 10%;
+}
+.three h3 {
+  text-transform: uppercase;
+}
+.three .uk-container .title {
+  color: #55c2e9;
+}
+.three .uk-container .icons a {
+  margin-left: 10%;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.three .uk-container .iconstwo a {
+  margin-left: 17%;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.three .uk-container {
+  padding-bottom: 6%;
+}
+/* Section three  ends*/
+
+/* Section four*/
+.four {
+  background-color: #ffffff;
+  height: 500px;
+}
+.four h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3px;
+  padding-top: 6%;
+}
+.four hr {
+  width: 6%;
+  border: 2px solid #e4e8eb;
+  margin-left: 47%;
+}
+.four p {
+  color: #3c4761;
+  text-align: center;
+}
+.four .circularprogressbar {
+  margin-left: 20%;
+}
+.four .circlechart {
+  padding: 20px 30px;
+}
+/* Section four  ends*/
+
+/* Section five */
+.five {
+  background-color: #ffdd99;
+  height: 1250px;
+}
+.five h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 35px;
+  padding-top: 80px;
+}
+.five p {
+  padding-bottom: 70px;
+}
+
+.five hr {
+  width: 6%;
+  border: 2px solid #e3c07c;
+  margin-left: 47%;
+  padding: 0 0;
+}
+.five ul {
+  list-style: none;
+}
+.five button {
+  background-color: #18c2a5;
+  border: transparent;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 20px 60px;
+  font-weight: 100;
+  line-height: 19px;
+  box-shadow: 0 4px #19a68b;
+  font-weight: bold;
+}
+.five button:hover {
+  box-shadow: 0 10px 16px 0 rgb(25, 166, 139), 0 15px 50px 0 rgb(25, 166, 139);
+  color: #18c2a5;
+  background-color: white;
+  cursor: pointer;
+}
+/* Section five  ends*/
+
+/* Section six  */
+.six {
+  background-color: #d74680;
+}
+.six h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 35px;
+  padding-top: 80px;
+  color: white;
+}
+.six .uk-container h4 {
+  color: whitesmoke;
+}
+
+.six .uk-container h3 {
+  color: #feffff;
+  text-transform: uppercase;
+}
+.six .uk-container p {
+  color: #fcd5a0;
+  text-transform: uppercase;
+}
+
+.six hr {
+  width: 6%;
+  border: 2px solid #b93b6d;
+  margin-left: 47%;
+  padding: 0 0;
+}
+
+.six .clientsattitude p {
+  color: white;
+  text-align: center;
+}
+
+.six img {
+  height: 190px;
+  width: 180px;
+  border-radius: 50%;
+  margin-left: 10%;
+}
+
+.six .partone {
+  margin-bottom: 50px;
+}
+/* Section six  ends*/
+
+/* Section seven  */
+.seven {
+  background-color: #3c5499;
+  height: 600px;
+}
+
+.seven h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 35px;
+  padding-top: 80px;
+  color: white;
+}
+.seven hr {
+  width: 6%;
+  border: 2px solid #5265a1;
+  margin-left: 47%;
+  padding: 0 0;
+}
+.seven p {
+  color: white;
+  text-align: center;
+}
+
+.seven button {
+  background-color: #30bae8;
+  border: transparent;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 15px 60px;
+  font-weight: 100;
+  line-height: 19px;
+  box-shadow: 0 4px #4599b4;
+  font-weight: bold;
+}
+.seven button:hover {
+  box-shadow: 0 12px 16px 0 rgb(13, 191, 245), 0 17px 50px 0 rgb(66, 134, 235);
+  color: #4599b4;
+  background-color: white;
+  cursor: pointer;
+}
+
+.seven .uk-input {
+  background-color: #15376b;
+  border: transparent;
+  margin-bottom: 50px;
+  border-radius: 3px;
+}
+
+.seven .uk-textarea {
+  background-color: #15376b;
+  border: transparent;
+  padding-right: 500px;
+}
+/* Section seven  ends*/
+
+/* Section eight*/
+.eight {
+  background-color: #344b8e;
+  height: 200px;
+}
+.eight ul {
+  margin: 0 0;
+  list-style: none;
+}
+
+.eight ul > li {
+  float: left;
+  margin-left: 3px;
+  position: relative;
+}
+
+.eight ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+  padding: 10px 40px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.eight a:hover {
+  color: #fa9000;
+}
+/* Section eight  ends*/

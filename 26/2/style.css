@@ -1,0 +1,16 @@
+/* .mahee
+{
+  color: aquamarine;
+  background-color: red;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: oblique;
+} */
+
+.rectangle {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+}

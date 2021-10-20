@@ -1,0 +1,30 @@
+#boxone {
+  height: 200px;
+  width: 500px;
+  background-color: #74b9ff;
+}
+
+#boxtwo {
+  height: 100px;
+  width: 100px;
+  background-color: #3742fa;
+  position: fixed;
+}
+#boxthree {
+  height: 100px;
+  width: 100px;
+  background-color: #747d8c;
+  position: fixed;
+}
+#boxfour {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: fixed;
+}
+#boxfive {
+  height: 100px;
+  width: 100px;
+  background-color: paleturquoise;
+  position: fixed;
+}

@@ -1,0 +1,90 @@
+/* Body */
+body {
+  margin: 0;
+}
+/* Main Menu   */
+.main-menu {
+  background-color: #7ed6df;
+}
+/* Working on main menu after   */
+.main-menu:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* Styling the ul of the main menu   */
+.main-menu ul {
+  list-style: none;
+  margin: 0;
+}
+/* Styling the li of main menu   */
+.main-menu ul li {
+  float: left;
+  position: relative;
+}
+/* Styling a of main menu   */
+.main-menu ul li a,
+.main-menu .bar {
+  display: block;
+  color: #30336b;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
+/* Styling the current in the mainmenu  */
+.main-menu ul li:hover a,
+.main-menu ul .current a {
+  background-color: #c7ecee;
+}
+/* Bar styling */
+.main-menu .bar {
+  background-color: beige;
+  display: none;
+}
+
+/* Styling i   */
+.main-menu .bar i {
+  float: right;
+}
+
+.main-menu ul ul {
+  padding: 0;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+}
+.main-menu ul ul li {
+  float: none;
+  min-width: 170px;
+}
+/* 
+.main-menu ul li:hover ul {
+  display: block;
+} */
+
+.main-menu ul ul li:hover a {
+  background-color: #95afc0;
+}
+
+/* Media One */
+@media all and (max-width: 768px) {
+  .main-menu ul {
+    padding: 0;
+    display: none;
+  }
+  .main-menu ul li {
+    float: none;
+  }
+  .main-menu .bar {
+    display: block;
+  }
+}
+
+/* Media Two */
+/* @media all and (min-width: 768px) {
+  .main-menu ul {
+    display: block;
+  }
+} */

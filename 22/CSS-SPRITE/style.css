@@ -1,0 +1,14 @@
+#next
+{
+    width: 77.5px;
+    height: 134px;
+    background-image: url('image/css-one.png');
+    background-position: 0 0;
+    display: block;
+    transition: 1s;
+}
+
+#next:hover
+{
+    background-position: 0 -150px;
+}
